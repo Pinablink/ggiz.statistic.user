@@ -1,5 +1,7 @@
 # ggiz.statistic.user
 
+## Dependências 
+Pessoal, deveria tratar melhor o mecanismo de dependência do projeto. Mas esta versão precisa ser feito de forma manual a inclusão dos pacotes. Esse projeto utiliza o pacote ***github.com/streadway/amqp*** como dependência para interação com o Ambiente RabbitMQ.
 
 ## Apresentação
 Microsistema que interage com o Webclient GGIZ, recebendo informações de acesso de usuário. Após a devida formatação envia o dado pra uma fila no ambiente RabbitMQ.
